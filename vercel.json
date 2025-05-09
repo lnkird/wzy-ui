@@ -1,0 +1,11 @@
+{
+    "buildCommand": "cd docs && pnpm install && pnpm run docs:build",
+    "outputDirectory": "docs/.vitepress/dist",
+    "framework": "vitepress",
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+# Development
+.vscode
+.idea
+*.log
+*.local
+
+# Build
+node_modules
+dist
+
+# Test
+coverage
+__tests__
+*.test.ts
+*.spec.ts
+
+# Config
+.eslintrc
+.prettierrc
+tsconfig.json
+vite.config.ts
+
+# Source
+src
+!src/index.ts
+!src/style.css 

@@ -1,0 +1,55 @@
+{
+    "name": "wzy-ui",
+    "version": "1.0.0",
+    "description": "A modern Vue 3 component library",
+    "type": "module",
+    "main": "./dist/index.umd.js",
+    "module": "./dist/index.es.js",
+    "types": "./dist/index.d.ts",
+    "style": "./dist/style.css",
+    "exports": {
+        ".": {
+            "import": "./dist/index.es.js",
+            "require": "./dist/index.umd.js",
+            "types": "./dist/index.d.ts"
+        },
+        "./style.css": "./dist/style.css"
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "highlight.js": "^11.9.0",
+        "vue": "^3.4.21"
+    },
+    "devDependencies": {
+        "@types/highlight.js": "^10.1.0",
+        "@types/node": "^20.11.19",
+        "@vitejs/plugin-vue": "^5.0.4",
+        "typescript": "~5.0.4",
+        "vite": "^5.1.6",
+        "vite-plugin-dts": "^3.7.3",
+        "vue-tsc": "^1.8.5"
+    },
+    "peerDependencies": {
+        "vue": "^3.4.21"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "vue",
+        "vue3",
+        "components",
+        "ui",
+        "library",
+        "wzy-ui"
+    ],
+    "author": "Your Name",
+    "license": "MIT"
+}

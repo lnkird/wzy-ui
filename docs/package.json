@@ -1,0 +1,18 @@
+{
+    "name": "wzy-ui-docs",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Documentation for wzy-ui",
+    "scripts": {
+        "docs:dev": "vitepress dev",
+        "docs:build": "vitepress build",
+        "docs:preview": "vitepress preview"
+    },
+    "dependencies": {
+        "wzy-ui": "workspace:*",
+        "vue": "^3.4.21"
+    },
+    "devDependencies": {
+        "vitepress": "^1.0.0-rc.44"
+    }
+}
